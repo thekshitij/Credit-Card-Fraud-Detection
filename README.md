@@ -1,1 +1,3 @@
 # Credit-Card-Fraud-Detection
+This project involves detecting fraudulent credit card transactions using an XGBoost classifier. The dataset was highly imbalanced, with a minority of fraudulent transactions. To address this, SMOTE was used for oversampling the minority class. Feature scaling was applied using StandardScaler, and the model was optimized using hyperparameters such as scale_pos_weight, n_estimators, and learning_rate. After adjusting the classification threshold, the model achieved an accuracy of 0.9507, with further evaluation using the AUC-PR metric for precision-recall trade-off.
+
